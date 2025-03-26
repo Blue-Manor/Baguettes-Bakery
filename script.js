@@ -201,6 +201,8 @@ function drawButton(button, text) {
 function Measuring() {
     ctx.fillStyle = "rgb(230, 230, 230)";
     ctx.fillRect(0, 0, cW, cH);
+    ctx.fillStyle = "rgb(209, 117, 46)";
+    ctx.fillRect(center(2, resize(1), "x"), resize(1), resize(1), canvas.height - resize(1));
     ctx.drawImage(measuring.background, center(2, resize(1), "x"), 0, resize(1), resize(1.5));
     ctx.drawImage(measuring.counter, center(2, resize(1), "x"), resize(1) - resize(4), resize(1), resize(4));
     ctx.drawImage(measuring.bowl, center(2, resize(2), "x") - resize(2.5)/2, resize(1.1) - resize(4), resize(2), resize(4));
