@@ -82,7 +82,7 @@ function setImageUrls(){
     Foods.bread.Image.src = "Food/Bread.png";
     Foods.cake.Image.src = "Food/Cake.png";
     Foods.cupcake.Image.src = "Food/PinkCupCake.png";
-    measuring.background.src = "Kitchen_background.png";
+    measuring.background.src = "Kitchen_Background.png";
     measuring.counter.src = "Counter.png";
     measuring.bowl.src = "CookingTools/Bowl.png";
     measuring.foodBackdrop.src = "FoodBackdrop.png";
